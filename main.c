@@ -27,7 +27,7 @@ int main()
 
     while(1)
     {
-        unsigned char ch = keyPad_GetKeyPressed();
+        unsigned char ch = keyPad_GetKeyPressed(); // Fetch the button pressed.
         if(ch != '\0')
         {
             lcd_str("Pressed Button: ");
